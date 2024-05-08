@@ -47,7 +47,7 @@ public class HomeActivity extends AppCompatActivity {
         String empid = sharedPreferences.getString("emp_id", "Default");
         String firstname = sharedPreferences.getString("first_name", "Default");
         String lastname = sharedPreferences.getString("last_name", "Default");
-
+     //
         replaceFragment(new HomeFragment());
 
 
