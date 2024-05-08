@@ -91,7 +91,7 @@ public class DetailFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(), ""+link, Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getContext(), ""+link, Toast.LENGTH_SHORT).show();
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                 builder.setMessage("Choose Download Method");
 
